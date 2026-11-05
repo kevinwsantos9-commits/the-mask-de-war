@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "themaskedmorte_shadows",
+  "version": "${version}",
+  "name": "The Masked Morte: Shadow Army",
+  "description": "Capture mobs defeated by the player and summon them as shadow allies.",
+  "authors": ["Nivek"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.nivek.morteshadows.ShadowArmyMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "themaskedmorte": "*"
+  }
+}
